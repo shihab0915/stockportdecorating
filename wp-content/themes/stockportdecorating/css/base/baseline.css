@@ -1,0 +1,30 @@
+/* Baseline except mixins*/
+
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atSmallMedium {
+  @media (min-width: 767px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 960px) {
+    @mixin-content;
+  }
+}
+
+body{ overflow-x: hidden; }
+
+.clearfix::after{ content: ""; clear: both; display: table; }
+
+.headline{ font-family: 'Open Sans', sans-serif; font-weight: 300; text-align: center; 
+	margin-top: 5rem; }
+
+h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important; }
+
+.ini-pos{opacity: 0; transition: all 0.8s ease-out;} /* Using for JavaScript */	

@@ -1,0 +1,30 @@
+/*
+	Theme Name: Get The Job Done
+	Theme URI:    https://www.upwork.com/freelancers/~01a9f777bf29c61bb1
+	Description:  This theme has been designed & developed specially for freelance website where clients can post their job and freelancers can bid on their projects or jobs, so on so forth.
+	Author: Shihab
+	Author URI:   https://www.upwork.com/freelancers/~01a9f777bf29c61bb1
+	Template:     hirebee
+	Version: 1.3
+	License:      GNU General Public License v2 or later
+ 	License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 	Tags:         freelance, hire-freelancer, responsive, full-width
+ 	Text Domain:  get-the-job-done
+
+*/
+.main-navigation .lower-top-bar ul li>a{
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
+}
+.full-width .content-header h3{
+	color: red;
+}
+.full-width .content-header{
+	background: #222;
+}
+.main-navigation, .lower-top-bar, .main-navigation .top-bar.expanded .title-area{
+	background-color: rgba(0, 6, 32, .8)
+}
+#navigation li :not(.button):hover{background-color: transparent;}
+.top-bar{
+	background: transparent;
+}
