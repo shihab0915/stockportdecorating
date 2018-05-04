@@ -1,0 +1,9 @@
+.button-container{ text-align: center; margin: 3rem 0 6rem 0;
+
+	a{ border: 1px solid $orange; color: $orange; font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif; padding: 5px 53px; transition: all 0.6s ease; }
+
+    a:hover{ background: $orange; border: 1px solid $darkOrange; color: #FFF; 
+	text-decoration: none; }
+
+}

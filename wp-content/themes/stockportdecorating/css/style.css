@@ -20,6 +20,9 @@
 
 /* BEM Blocks */
 @import "modules/header";
+@import "modules/slider";
+@import "modules/services";
+@import "modules/button";
 
 
 

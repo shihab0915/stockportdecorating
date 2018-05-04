@@ -1,5 +1,9 @@
-$beige: #FAF0CA;
-$mainYellow: #F4D35E;
-$mainBlue: #0D3B66;
-$lightOrange: #EE964B;
-$darkOrange: #F95738;
+$mainColor: #14BFF4;
+$mainColorDeep: #0bade0;
+
+$white: #FFFFFF;
+$hoverColor: rgba( 255, 255, 255, 0.1 );
+$lightBlack: #222;
+
+$orange: #FF8C00;
+$darkOrange: #FF5E00;

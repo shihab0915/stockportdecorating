@@ -27,4 +27,4 @@ body{ overflow-x: hidden; }
 
 h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important; }
 
-.ini-pos{opacity: 0; transition: all 0.8s ease-out;} /* Using for JavaScript */	
+.ini-pos-js{opacity: 0; transition: all 0.8s ease-out;} /* Using for JavaScript */	

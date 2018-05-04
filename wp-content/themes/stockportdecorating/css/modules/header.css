@@ -1,6 +1,13 @@
-.navbar{ margin-bottom: 0px; border-radius: 0px; }
+.site-header{
+	.navbar{ margin-bottom: 0px; }
+	.navbar-default{ background: $mainColor; border: none; border-radius: 0px; }
+	.navbar-default .navbar-nav > li > a{ color: $white; font-family: 'Open Sans', sans-serif;
+		transition: all 0.8s ease-out;
+	}
+	.navbar-default .navbar-nav > li > a:hover{ background: $hoverColor; color: $lightBlack; }
+	
+	.navbar .current-menu-item > a{ background-color: $mainColorDeep; color: white; 
+		font-style: italic; }
 
 
-
-
-
+}

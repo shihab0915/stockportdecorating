@@ -1,1 +1,7 @@
-<i class="fa fa-address-book-o" aria-hidden="true"></i>
+<?php
+get_header(); 
+
+
+?>
+
+<?php get_footer(); ?>
