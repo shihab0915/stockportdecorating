@@ -1,0 +1,21 @@
+.well--bg-one{background: rgba(239, 243, 250, .9); border-top: 1px solid #b6eefd;
+    border-bottom: 1px solid #b6eefd; font-family: 'Open Sans', sans-serif;
+}
+.property-maintanance h1{ margin-bottom: 3.3rem; }
+.residential, .commercial, .inspections, .roofing{text-align: center;}
+.property-maintanance .fa{ font-size: 7rem; color: #714BEA; }
+.property-maintanance hr{display: block; height: 1px; border: 0; border-top: 1px solid #714BEA;
+    margin: 1em 0; padding: 0; 
+}
+.property-maintanance h6{ font-size: 2.5rem; font-weight: 300; }
+.property-maintanance p{ font-weight: 300; font-size: 1.5rem; }
+.front_page_post_prjt_btn{ margin-bottom: 13rem; }
+
+.residential{ animation-duration: 1s; }
+.commercial{ animation-duration: 1.3s; }
+.inspections{ animation-duration: 1.7s; }
+.roofing{ animation-duration: 2.2s; }
+
+.temp-hiw{ margin-top: 2rem; } 
+.temp-hiw p{ font-family: 'Open Sans', sans-serif; color: #9FA1A5; font-weight: 300; 
+    font-size: 1.5rem } /* how it works page */

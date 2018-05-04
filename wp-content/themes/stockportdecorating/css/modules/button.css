@@ -6,4 +6,9 @@
     a:hover{ background: $orange; border: 1px solid $darkOrange; color: #FFF; 
 	text-decoration: none; }
 
+	&--blue{
+		a{ border: 1px solid $mainColor; color: $mainColor; }
+		a:hover{ background: $mainColor; border: 1px solid $mainColorDeep; }
+	}
+
 }

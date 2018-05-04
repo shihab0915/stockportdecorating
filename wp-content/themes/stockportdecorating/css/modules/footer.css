@@ -1,0 +1,19 @@
+footer{
+    background: linear-gradient(0deg, rgba(125, 42, 232, .95), rgba(0, 76, 112, .95)), url('assets/images/texture.jpg');
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.ftr-about-us img{ max-height: 30px; width: auto; margin-top: 15px; }
+.ftr-about-us h3, .quicklink h3, .supporandtos h3{font-weight: 300; }
+.ftr-about-us p{color: #FFF; font-weight: 300; }
+
+.quicklink p{ margin-bottom: 2px; }
+.quicklink a, .supporandtos a{ font-weight: 300; color: #FFF; transition: color 0.5s ease; }
+.quicklink a:hover, .supporandtos a:hover{color: #d4c8c8; text-decoration: none; }
+.quicklink .social a{ font-size: 3rem; padding-right: 9px; }
+.quicklink .social a:last-child{padding-right: 0;}
+
+

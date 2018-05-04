@@ -9,5 +9,7 @@
 	.navbar .current-menu-item > a{ background-color: $mainColorDeep; color: white; 
 		font-style: italic; }
 
+	.navbar-default .navbar-brand{ font-family: 'Open Sans', sans-serif; color: $white; text-shadow: 2px 2px 2px #222; }	
+
 
 }
