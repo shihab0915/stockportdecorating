@@ -83,7 +83,7 @@
         <?php 
             $args = array(
                 'post_type'     => 'slider',
-                'post_per_page' => -1,
+                'posts_per_page' => -1,
                 'orderby'       => 'menu_order', 
                 'order'         => 'ASC',
                 

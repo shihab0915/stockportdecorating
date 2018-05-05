@@ -29,6 +29,9 @@ body{ overflow-x: hidden; }
 	margin-top: 5rem; }
 
 
+.headline--left{ text-align: left; }
+
+
 h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important; }
 
 
@@ -68,6 +71,9 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 }
 
 
+/* SERVICES ON FRONT PAGE */
+
+
 .services a{ color: #FF8C00; -webkit-transition: color 0.6s ease; transition: color 0.6s ease; font-family: 'Roboto', sans-serif; }
 
 
@@ -82,6 +88,57 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 
 
 .services--item:hover{ border: 2px solid #FF5E00; background: #FF8C00; color: #FFFFFF; }
+
+
+/* SERVICES PAGE */
+
+
+.service-headline a{ color: #FF8C00; -webkit-transition: all 0.6s ease-out; transition: all 0.6s ease-out; }
+
+
+.service-headline a:hover{ color: #FF5E00; text-decoration: none; }
+
+
+.service-content{ background: rgba(255, 140, 0, 0.3); padding: 10px 12px;
+}
+
+
+.service-content .service-thumb img{ border: 5px solid rgba(255, 94, 0, 0.5); float: left; margin-right: 15px; }
+
+
+.service-content .service-trim{ font-family: 'Open Sans', sans-serif; font-size: 1.8rem;
+		line-height: 30px; font-weight: 300; letter-spacing: 1.4px;
+	}
+
+
+.service-content .service-trim a.continue-reading{ font-size: 1.5rem; }
+
+
+.service-pagination{ padding: 20px 0; text-align: center;
+}
+
+
+.service-pagination a{ color: #FF5E00; font-size: 2rem; padding: 0 10px; }
+
+
+.service-pagination a:hover{ text-decoration: none; }
+
+
+.service-pagination span.current{ font-size: 2rem; background: #14BFF4; color: #FFFFFF; text-shadow: 2px 2px 2px #222; padding: 10px; border-radius: 50%; }
+
+
+/* SINGLE SERVICES POST */
+
+
+.page-banner__title__center{ text-align: center; }
+
+
+.single-service-content{ font-family: 'Open Sans', sans-serif; font-size: 1.7rem; line-height: 30px; }
+
+
+.single-service-content-contact{ font-family: 'Open Sans', sans-serif; text-align: center;
+	color: #14BFF4;
+}
 
 
 .button-container{ text-align: center; margin: 3rem 0 6rem 0;
@@ -438,6 +495,83 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 
 
 .testimonial4_slide p.designation{ font-family: 'Roboto', sans-serif; font-weight: 300; margin-top: 0; font-size: 1.3rem; }
+
+
+.page-banner {
+  background-color: #000;
+  padding: 80px 0 40px 0;
+  position: relative;
+}
+
+
+@media (min-width: 530px) {
+
+
+.page-banner {
+    padding: 130px 0 60px 0
+}
+  }
+
+
+.page-banner__content {
+    position: relative;
+    z-index: 2;
+  }
+
+
+.page-banner__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3.6rem;
+    margin: 0 0 1rem 0;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #222;
+  }
+
+
+@media (min-width: 530px) {
+
+
+.page-banner__title {
+      font-size: 5rem
+  }
+  }
+
+
+.page-banner__bg-image {
+    opacity: .33;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+.page-banner__intro {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: #EDEDED;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+
+
+@media (min-width: 530px) {
+
+
+.page-banner__intro {
+      font-size: 2rem
+  }
+  }
+
+
+.page-banner__intro p {
+    margin: 0;
+  }
 
 
 footer{

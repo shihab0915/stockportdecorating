@@ -1,3 +1,4 @@
+/* SERVICES ON FRONT PAGE */
 .services{
 	a{ color: $orange; transition: color 0.6s ease; font-family: 'Roboto', sans-serif; }
 
@@ -7,6 +8,30 @@
 		.fa{ font-size: 5rem; }
 	}
 	&--item:hover{ border: 2px solid $darkOrange; background: $orange; color: $white; }
+}
 
 
+/* SERVICES PAGE */
+.service-headline a{ color: $orange; transition: all 0.6s ease-out; }
+.service-headline a:hover{ color: $darkOrange; text-decoration: none; }
+.service-content{ background: $contentBg; padding: 10px 12px; 
+	.service-thumb img{ border: 5px solid $contentBorder; float: left; margin-right: 15px; }
+	.service-trim{ font-family: 'Open Sans', sans-serif; font-size: 1.8rem;
+		line-height: 30px; font-weight: 300; letter-spacing: 1.4px;
+		a.continue-reading{ font-size: 1.5rem; }
+	}
+}
+
+.service-pagination{ padding: 20px 0; text-align: center;
+	a{ color: $darkOrange; font-size: 2rem; padding: 0 10px; }
+	a:hover{ text-decoration: none; }
+	span.current{ font-size: 2rem; background: $mainColor; color: $white; text-shadow: 2px 2px 2px #222; padding: 10px; border-radius: 50%; }
+}
+
+
+/* SINGLE SERVICES POST */
+.page-banner__title__center{ text-align: center; }
+.single-service-content{ font-family: 'Open Sans', sans-serif; font-size: 1.7rem; line-height: 30px; }
+.single-service-content-contact{ font-family: 'Open Sans', sans-serif; text-align: center;
+	color: $mainColor;
 }

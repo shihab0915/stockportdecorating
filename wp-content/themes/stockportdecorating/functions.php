@@ -69,6 +69,23 @@ function consultant_post_type() {
         ),
         'menu_icon' => 'dashicons-slides',
     ) );
+
+
+    // SERVICES
+    register_post_type( 'services', array(
+        'menu_position'     => 6,
+        'supports'          => array( 'title', 'editor', 'thumbnail', 'page-attributes' ),
+        'public'            => true,
+        'labels'            => array(
+            'name'          => 'Services',
+            'add_new_item'  => 'Add New Service',
+            'edit_item'     => 'Edit Service',
+            'all_items'     => 'All Services',
+            'singular_name' => 'Service'
+        ),
+        'rewrite'           => array( 'slug' => 'service' ),
+        'menu_icon'         => 'dashicons-hammer',
+    ) );
     
 }
 add_action( 'init', 'consultant_post_type' );
