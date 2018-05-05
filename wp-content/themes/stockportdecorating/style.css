@@ -160,6 +160,9 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 .button-container--blue a:hover{ background: #14BFF4; border: 1px solid #0bade0; }
 
 
+/* PROPERTY MAINTENANCE ON HOME PAGE */
+
+
 .well--bg-one{background: rgba(239, 243, 250, .9); border-top: 1px solid #b6eefd;
     border-bottom: 1px solid #b6eefd; font-family: 'Open Sans', sans-serif;
 }
@@ -207,7 +210,26 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
     font-size: 1.5rem }
 
 
-/* how it works page */
+/* PROPERTY MAINTENANCE PAGE */
+
+
+.service-loop--ppt-maintanance .service-headline a{ color: #14BFF4; text-shadow: 1px 2px 2px #222; }
+
+
+.service-loop--ppt-maintanance .service-headline a:hover{ color: #FF5E00; }
+
+
+.service-loop--ppt-maintanance .service-content{ background: rgba(125, 42, 232, .2); -webkit-box-shadow: 0 8px 6px -6px #222; box-shadow: 0 8px 6px -6px #222;
+	}
+
+
+.service-loop--ppt-maintanance .service-content .service-thumb img{ border: 5px solid #FFFFFF; border-radius: 15px; }
+
+
+/* PROPERTY MAINTENANCE SINGLE POST */
+
+
+.well--single-pptmntc{ background: rgba(255, 140, 0, 0.3); }
 
 
 #testimonial4{
@@ -606,7 +628,6 @@ footer{
 
 
 .quicklink .social a:last-child{padding-right: 0;}
-
 
 
 

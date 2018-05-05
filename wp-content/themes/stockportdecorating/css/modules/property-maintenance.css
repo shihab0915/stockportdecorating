@@ -1,3 +1,4 @@
+/* PROPERTY MAINTENANCE ON HOME PAGE */
 .well--bg-one{background: rgba(239, 243, 250, .9); border-top: 1px solid #b6eefd;
     border-bottom: 1px solid #b6eefd; font-family: 'Open Sans', sans-serif;
 }
@@ -18,4 +19,19 @@
 
 .temp-hiw{ margin-top: 2rem; } 
 .temp-hiw p{ font-family: 'Open Sans', sans-serif; color: #9FA1A5; font-weight: 300; 
-    font-size: 1.5rem } /* how it works page */
+    font-size: 1.5rem } 
+
+
+
+/* PROPERTY MAINTENANCE PAGE */
+.service-loop--ppt-maintanance{
+	.service-headline a{ color: $mainColor; text-shadow: 1px 2px 2px #222; }
+	.service-headline a:hover{ color: $darkOrange; }
+	.service-content{ background: $pptmntce; box-shadow: 0 8px 6px -6px #222;
+		.service-thumb img{ border: 5px solid $white; border-radius: 15px; }
+	}
+} 
+
+
+/* PROPERTY MAINTENANCE SINGLE POST */
+.well--single-pptmntc{ background: $contentBg; }

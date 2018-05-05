@@ -56,6 +56,22 @@ jQuery(document).ready(function($){
     }, { offset: '90%'});
 
 
+
+    // PROPERTY MAINTENANCE PAGE
+    var pptmnpage = $('.service-loop--ppt-maintanance');
+        pptmnpage.waypoint( function() {
+            pptmnpage.addClass("animated fadeInLeft");
+            pptmnpage.removeClass("ini-pos-js");
+    }, { offset: '90%'});  
+
+    // PROPERTY MAINTENANCE SINGLE POST
+    var single_pptmntce = $('.single-service-content--pptmntce');
+        single_pptmntce.waypoint( function() {
+            single_pptmntce.addClass("animated zoomIn");
+            single_pptmntce.removeClass("ini-pos-js");
+    }, { offset: '90%'});       
+
+
        
 
 

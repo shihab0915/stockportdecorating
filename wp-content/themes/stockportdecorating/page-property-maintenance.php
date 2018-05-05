@@ -1,23 +1,24 @@
-<?php
+<?php 
 	get_header();
-	get_template_part('/inc/page-banner');
+	echo get_template_part('/inc/page-banner');
 ?>
+
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1 service-loop">
+		<div class="col-md-10 col-md-offset-1 service-loop service-loop--ppt-maintanance ini-pos-js">
 		<?php
 			$args = array(
 				'paged' => get_query_var('paged', 1), // this one is fallback for first page
-				'post_type' => 'services',
-                'posts_per_page' => 3,
+				'post_type' => 'property_maintenance',
+                'posts_per_page' => 2,
                 'orderby' => 'menu_order', 
                 'order' => 'ASC',
 			);
 
-			$service = new WP_Query( $args );
-			while( $service->have_posts() ) {
-				$service->the_post(); ?>
+			$pptmnt = new WP_Query( $args );
+			while( $pptmnt->have_posts() ) {
+				$pptmnt->the_post(); ?>
 				<div class="service-headline">
 					<h1 class="headline headline--left"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 				</div>
@@ -29,13 +30,13 @@
 					</div>
 					<div class="service-trim">
 						<?php echo wp_trim_words( get_the_content(), 140, '...' ); ?>
-						<a class="continue-reading" href="<?php the_permalink(); ?>">Check detailed service &raquo;</a>
+						<a class="continue-reading" href="<?php the_permalink(); ?>">See details &raquo;</a>
 					</div>
 				</div>
 
 			<?php } echo '<div class="service-pagination">';
 			echo paginate_links( array(
-				'total' => $service->max_num_pages
+				'total' => $pptmnt->max_num_pages
 			) );	echo '</div>';
 		?>
 		
@@ -44,6 +45,9 @@
 	</div> <!-- row -->
 </div> <!-- container -->
 
- 
+
+
+
+
 
 <?php get_footer(); ?>

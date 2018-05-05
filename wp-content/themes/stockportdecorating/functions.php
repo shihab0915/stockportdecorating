@@ -86,9 +86,29 @@ function consultant_post_type() {
         'rewrite'           => array( 'slug' => 'service' ),
         'menu_icon'         => 'dashicons-hammer',
     ) );
+
+    // PROPERTY MAINTANANCE
+    register_post_type( 'property_maintenance', array(
+        'menu_position'     => 7,
+        'supports'          => array( 'title', 'editor', 'thumbnail', 'page-attributes' ),
+        'public'            => true,
+        'labels'            => array(
+            'name'          => 'Property Maintenance',
+            'add_new_item'  => 'Add New PM Services',
+            'edit_item'     => 'Edit PM Services',
+            'all_items'     => 'All PM Services',
+            'singular_name' => 'PM Service'
+        ),
+        'rewrite'           => array( 'slug' => 'property-maintanance' ),
+        'menu_icon'         => 'dashicons-building',
+
+    ) );
+
     
 }
 add_action( 'init', 'consultant_post_type' );
+
+
 
 
 
