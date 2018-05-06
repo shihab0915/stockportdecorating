@@ -1,0 +1,7 @@
+.portfolio-meta{ background: $darkOrange; 
+	p{
+		font-family: 'Open Sans', sans-serif; line-height: 20px; padding: 10px 12px; font-style: italic;
+		color: $white; text-align: center;
+	}
+}
+

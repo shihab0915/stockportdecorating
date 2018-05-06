@@ -44,7 +44,7 @@
        </div>
     </div>
 
-    <div class="button-container ini-pos-js ppt-btn button-container--blue">
-        <a href="<?php echo site_url('/property-maintanance'); ?>">Check Property Maintanance</a>
+    <div class="button-container ini-pos-js ppt-btn button-container--blue button-container--narrow">
+        <a href="<?php echo site_url('/property-maintanance'); ?>">Check Property Maintanance</a> 
     </div>
 </section>

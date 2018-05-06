@@ -33,5 +33,7 @@
 .page-banner__title__center{ text-align: center; }
 .single-service-content{ font-family: 'Open Sans', sans-serif; font-size: 1.7rem; line-height: 30px; }
 .single-service-content-contact{ font-family: 'Open Sans', sans-serif; text-align: center;
-	color: $mainColor;
+	color: $mainColor; font-size: 1.7rem;
+
+	@mixin atSmall{ font-size: 3rem; }
 }

@@ -123,6 +123,24 @@ function consultant_post_type() {
 
     ) );
 
+    // PORTFOLIO
+    register_post_type( 'portfolio', array(
+        'menu_position'     => 9,
+        'supports'          => array( 'title', 'editor', 'thumbnail', 'page-attributes' ),
+        'public'            => true,
+        'labels'            => array(
+            'name'          => 'Portfolio',
+            'add_new_item'  => 'Add New Portfolio',
+            'edit_item'     => 'Edit Portfolio',
+            'all_items'     => 'All Portfolios',
+            'singular_name' => 'Portfolio'
+        ),
+        'rewrite'           => array( 'slug' => 'portfolio' ),
+        'menu_icon'         => 'dashicons-image-filter',
+
+    ) );
+
+
 
 
 

@@ -19,4 +19,11 @@
 		}
 	}
 
+	&--narrow{
+		a{
+			padding: 5px 2px;
+			@mixin atSmall{ padding: 5px 53px; }
+		}
+	}
+
 }

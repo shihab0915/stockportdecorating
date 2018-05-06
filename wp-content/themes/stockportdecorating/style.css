@@ -137,8 +137,16 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 
 
 .single-service-content-contact{ font-family: 'Open Sans', sans-serif; text-align: center;
-	color: #14BFF4;
+	color: #14BFF4; font-size: 1.7rem;
 }
+
+
+@media (min-width: 530px) {
+
+
+.single-service-content-contact{ font-size: 3rem
+}
+  }
 
 
 .button-container{ text-align: center; margin: 3rem 0 6rem 0;
@@ -169,6 +177,19 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 
 .button-container--multiple a{
 				padding: 5px 53px
+		}
+  }
+
+
+.button-container--narrow a{
+			padding: 5px 2px;
+		}
+
+
+@media (min-width: 530px) {
+
+
+.button-container--narrow a{ padding: 5px 53px
 		}
   }
 
@@ -532,7 +553,7 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 .testimonial4_slide h4{ font-family: 'Open Sans', sans-serif; font-weight: 300; margin-bottom: 0; }
 
 
-.testimonial4_slide p.designation{ font-family: 'Roboto', sans-serif; font-weight: 300; margin-top: 0; font-size: 1.3rem; }
+.testimonial4_slide p.designation{ font-family: 'Roboto', sans-serif; font-weight: 300; margin-top: 0; font-size: 1.3rem; margin-bottom: 35px; }
 
 
 /*TESTIMONIALS PAGE*/
@@ -669,6 +690,16 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 .page-banner__intro p {
     margin: 0;
   }
+
+
+.portfolio-meta{ background: #FF5E00;
+}
+
+
+.portfolio-meta p{
+		font-family: 'Open Sans', sans-serif; line-height: 20px; padding: 10px 12px; font-style: italic;
+		color: #FFFFFF; text-align: center;
+	}
 
 
 footer{
