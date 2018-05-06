@@ -1,5 +1,6 @@
 <?php
 function stockport_files() {
+    wp_enqueue_style( 'owl-style-carousel', get_theme_file_uri('/css/owl-carousel/owl.carousel.min.css') );
     wp_enqueue_style( 'fontawesome', get_theme_file_uri('/css/font-awesome.min.css') );
 	wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css' );
 	wp_enqueue_style( 'OpenSans', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet' ); //font-family: 'Open Sans', sans-serif;
@@ -12,6 +13,7 @@ function stockport_files() {
     wp_enqueue_script( 'waypoints', get_theme_file_uri('/js/vendor/jquery.waypoints.min.js'), array('jquery'), NULL, true );
 	wp_enqueue_script( 'bootstrapJS', get_theme_file_uri('/js/vendor/bootstrap.min.js'), array('jquery'), '3.3.7', true );
     wp_enqueue_script( 'sliderJs', get_theme_file_uri('/js/slider.min.js'), true );
+    wp_enqueue_script( 'owl-script', get_theme_file_uri('/js/owl-carousel/owl.carousel.min.js'), array('jquery'), NULL, true );
 	wp_enqueue_script( 'mainJS', get_theme_file_uri('/js/main.js'), array('jquery'), '1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'stockport_files' );
@@ -103,6 +105,26 @@ function consultant_post_type() {
         'menu_icon'         => 'dashicons-building',
 
     ) );
+
+    // TESTIMONIALS
+    register_post_type( 'testimonials', array(
+        'menu_position'     => 8,
+        'supports'          => array( 'title', 'editor', 'thumbnail', 'page-attributes' ),
+        'public'            => true,
+        'labels'            => array(
+            'name'          => 'Testimonials',
+            'add_new_item'  => 'Add New Testimonial',
+            'edit_item'     => 'Edit Testimonial',
+            'all_items'     => 'All Testimonials',
+            'singular_name' => 'Testimonial'
+        ),
+        'rewrite'           => array( 'slug' => 'testimonial' ),
+        'menu_icon'         => 'dashicons-format-quote',
+
+    ) );
+
+
+
 
     
 }

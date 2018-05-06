@@ -1,3 +1,5 @@
+/*TESTIMONIALS IN FRONT PAGE*/
+
 #testimonial4{
   overflow: hidden;
   min-height: 375px;
@@ -246,3 +248,49 @@
 
     p.designation{ font-family: 'Roboto', sans-serif; font-weight: 300; margin-top: 0; font-size: 1.3rem; }
 }
+
+
+/*TESTIMONIALS PAGE*/
+.testimonial-page{ background: linear-gradient(0deg, rgba(125, 42, 232, .95), rgba(0, 76, 112, .95)); 
+    .item{ background: $white; text-align: center; }
+
+    .row{ margin-top: 5rem; 
+        @mixin atMedium{
+          margin-top: 10rem; 
+        }
+    }
+
+    .item{ padding-top: 40px; 
+        @mixin atSmallMedium{ min-height: 600px }
+
+    }
+
+    .client img{ width: 200px; height: 200px; margin: 0 auto;
+      border-radius: 50%; border: 5px solid $darkOrange;
+    }
+
+    .client--text{ font-family: 'Open Sans', sans-serif; padding: 10px 15px; font-weight: 300; 
+    font-size: 1.6rem; line-height: 25px; }
+
+    .client-name{ font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 1.7rem;
+        background: $pptmntce; padding: 8px 0; color: $darkOrange; 
+    }
+
+    .client-meta{ font-family: 'Roboto', sans-serif; font-style: italic; padding-bottom: 3rem; }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

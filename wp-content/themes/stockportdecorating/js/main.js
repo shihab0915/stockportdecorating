@@ -69,15 +69,51 @@ jQuery(document).ready(function($){
         single_pptmntce.waypoint( function() {
             single_pptmntce.addClass("animated zoomIn");
             single_pptmntce.removeClass("ini-pos-js");
-    }, { offset: '90%'});       
+    }, { offset: '90%'}); 
 
 
+    // OWL CAROUSEL
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                767:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+      });
+      $('.play').on('click', function() {
+        owl.trigger('play.owl.autoplay', [1000])
+      })
+      $('.stop').on('click', function() {
+        owl.trigger('stop.owl.autoplay')
+      });
        
 
 
 
 
  
+
+
+
+
+ 
+
+
+
 
     
     

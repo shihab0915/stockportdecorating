@@ -1,7 +1,7 @@
 .button-container{ text-align: center; margin: 3rem 0 6rem 0;
 
 	a{ border: 1px solid $orange; color: $orange; font-size: 1.6rem;
-    font-family: 'Open Sans', sans-serif; padding: 5px 53px; transition: all 0.6s ease; }
+    font-family: 'Open Sans', sans-serif; padding: 5px 53px; transition: all 0.6s ease; cursor: pointer; }
 
     a:hover{ background: $orange; border: 1px solid $darkOrange; color: #FFF; 
 	text-decoration: none; }
@@ -9,6 +9,14 @@
 	&--blue{
 		a{ border: 1px solid $mainColor; color: $mainColor; }
 		a:hover{ background: $mainColor; border: 1px solid $mainColorDeep; }
+	}
+
+	&--multiple{
+		a{ padding: 5px 20px; 
+			@mixin atSmall{
+				padding: 5px 53px;
+			}
+		}
 	}
 
 }
