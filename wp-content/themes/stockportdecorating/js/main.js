@@ -71,6 +71,20 @@ jQuery(document).ready(function($){
             single_pptmntce.removeClass("ini-pos-js");
     }, { offset: '90%'}); 
 
+    // CONTACT PAGE HEADING
+    var contact_head = $('.well--contact-head');
+        contact_head.waypoint( function() {
+            contact_head.addClass("animated bounceInLeft");
+            contact_head.removeClass("ini-pos-js");
+    }, { offset: '90%'}); 
+
+    // CONTACT PAGE FORM
+    var contact_form = $('.contact-page--form');
+        contact_form.waypoint( function() {
+            contact_form.addClass("animated bounceInRight");
+            contact_form.removeClass("ini-pos-js");
+    }, { offset: '90%'}); 
+
 
     // OWL CAROUSEL
       var owl = $('.owl-carousel');

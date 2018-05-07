@@ -135,7 +135,7 @@ function consultant_post_type() {
             'all_items'     => 'All Portfolios',
             'singular_name' => 'Portfolio'
         ),
-        'rewrite'           => array( 'slug' => 'portfolio' ),
+        'rewrite'           => array( 'slug' => 'portfolios' ),
         'menu_icon'         => 'dashicons-image-filter',
 
     ) );

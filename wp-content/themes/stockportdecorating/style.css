@@ -702,6 +702,21 @@ h3{ font-family: 'Open Sans', sans-serif !important; font-weight: 300 !important
 	}
 
 
+.contact-page{
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 94, 0, .5)), to(rgba(249, 234, 234, .95))), url('assets/images/contact-bg.jpg');
+	background: linear-gradient(0deg, rgba(255, 94, 0, .5), rgba(249, 234, 234, .95)), url('assets/images/contact-bg.jpg');
+	background-repeat:no-repeat; background-size: cover; background-position:center;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.contact-page #stockportdecorating-client-name, .contact-page #stockportdecorating-client-email, .contact-page #stockportdecorating-client-phone, .contact-page #exampleFormControlTextarea1{ min-height: 50px; background: rgba(255, 255, 255, 0.6); }
+
+
+.contact-page .well--contact-head{ background: rgba(255, 140, 0, 0.2); font-weight: 300; line-height: 40px; text-shadow: 1px 1px 2px #222; color: #222; }
+
+
 footer{
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(125, 42, 232, .95)), to(rgba(0, 76, 112, .95))), url('assets/images/texture.jpg');
     background: linear-gradient(0deg, rgba(125, 42, 232, .95), rgba(0, 76, 112, .95)), url('assets/images/texture.jpg');

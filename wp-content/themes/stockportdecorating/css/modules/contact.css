@@ -1,0 +1,20 @@
+.contact-page{
+	background: linear-gradient(0deg, rgba(255, 94, 0, .5), rgba(249, 234, 234, .95)), url('assets/images/contact-bg.jpg');
+	background-repeat:no-repeat; background-size: cover; background-position:center;
+	font-family: 'Open Sans', sans-serif;
+
+	#stockportdecorating-client-name, #stockportdecorating-client-email, #stockportdecorating-client-phone,
+	#exampleFormControlTextarea1{ min-height: 50px; background: $conFormField; }
+
+
+	.well{
+		&--contact-head{ background: $contactWell; font-weight: 300; line-height: 40px; text-shadow: 1px 1px 2px #222; color: $lightBlack; }
+	}
+
+}
+
+
+
+
+
+
